@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Inter DTD-->
+<!--<!DOCTYPE scores[-->
+        <!--<!ELEMENT scores (student*)>-->
+        <!--&lt;!&ndash;元素数量词：+表示出现至少一次，?表示出现0次或1次&ndash;&gt;-->
+        <!--<!ELEMENT student (name, course, score)>-->
+        <!--<!ATTLIST student id CDATA #REQUIRED>-->
+        <!--&lt;!&ndash;CDATA表示字符数据，#REQUIRED表示必须出现，#IMPLIED表示不是必须的&ndash;&gt;-->
+        <!--<!ELEMENT name (#PCDATA)>-->
+        <!--<!ELEMENT course (#PCDATA)>-->
+        <!--<!ELEMENT score (#PCDATA)>-->
+        <!--&lt;!&ndash;#PCDATA内部元素不允许出现子标签&ndash;&gt;-->
+        <!--]>-->
+
+<!--Outer DTD-->
+<!--<!DOCTYPE scores SYSTEM "Outer DTD">-->
+
+<scores>
+    <student id="1">
+        <name>ljy</name>
+        <course>python</course>
+        <score>100</score>
+    </student>
+    <student id="2">
+        <name>beileye</name>
+        <course>xml</course>
+        <score>101</score>
+    </student>
+    <student id="3">
+        <name>xiaobeile</name>
+        <course>c</course>
+        <score>102</score>
+    </student>
+</scores>

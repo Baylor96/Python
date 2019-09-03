@@ -1,0 +1,26 @@
+<annotation>
+  <folder>ljy</folder>
+  <filename>ljy.jpg</filename>
+  <source>
+    <database>lala</database>
+    <annotation>lala</annotation>
+    <image>lala</image>
+    <url>http://test.jpg</url>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>person</name>
+    <bndbox>
+      <xmin>100</xmin>
+      <ymin>200</ymin>
+      <xmax>300</xmax>
+      <ymax>400</ymax>
+    </bndbox>
+    <difficult>0</difficult>
+  </object>
+</annotation>
