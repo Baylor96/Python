@@ -6,6 +6,10 @@ arange()
 功能类似range()，默认整形
 copy()
 深拷贝
+any()
+数据是否包含有ture的值
+linspace()
+将数据分段
 sum()
 求和函数
 product()

@@ -1,5 +1,16 @@
 Series(data,index=)
 生成类似array()的一维数组，但具有索引值
+date_range(data,periods=)
+生成periods个时间序列
+concat([],axis=,ignore_index=T/F,join={'inner','outer'},join_axis=)
+按照axis，合并DataFrame,inner为交集，outer为并集,以join_axes为行索引进行合并
+merge(left,right,on='value',how={'left','right','inner','outer'},
+      indicator=T/F,left_index=T/F,right_index=T/F,suffixes=[])
+根据value合并DataFrame,indicator为true，显示合并状态,suffixes添加后缀名
+cumsum()
+累加求和
+
+DataFrame常用属性和函数：
 DataFrame(data,index=,columns=)
 将数个Series按index和columns的二维数据结构
 DataFrame.index
@@ -16,5 +27,17 @@ DataFrame.sort_index(axis=,ascending=)
 按axis排序,若ascending为true,降序,若false，倒序
 DataFrame.sort_index(by=)
 将DataFrame中by列数据排序
-date_range(data,periods=)
-生成periods个时间序列
+DataFrame.loc[]
+按标签获取数据
+DataFrame.iloc[]
+按行和列获取数据
+DataFrame.ix[]
+混合筛选数据
+DataFrame.dropna(axis=,how={'all','any'})
+丢弃空值
+DataFrame.fillna(value=0)
+填充空值为value值
+DataFrame.isnull()
+数据是否存在缺失值
+DataFrame.append()
+功能类似pd.concat()，可以合并DataFrame，也可以添加新序列
