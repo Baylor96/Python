@@ -68,3 +68,5 @@ clip(a,min,max)
 滤波函数,将数组小于min替换成min，将数组中大于max替换成max
 radnom.normal(0,1,n)
 生成n个0-1符合正态分布的随机数
+random.uniform(low,high,size)
+从一个均匀分布[low,high)中随机采size个样
