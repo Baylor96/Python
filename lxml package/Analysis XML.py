@@ -36,5 +36,4 @@ def parse_html():
 if __name__ == '__main__':
     parse_file()
     # parse_html()
-
-
+    # parse_text()
