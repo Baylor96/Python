@@ -1,0 +1,49 @@
+plot(x,y,color=,linewidth(lw)=,linestyle=,label=)
+绘制关于x,y线性图像,设置颜色，线宽，线型，线标签
+scatter(x,y,s=,c=,alpha=)
+绘制关于x,y大小为s，颜色为c，透明度为alpha的散点图
+bar(x,y,facecolor=,edgecolor=)
+绘制关于x,y的柱状图，设置背景颜色和边框颜色
+figure(num=,figsize=)
+给图片编号，设置图片大小
+xlim()
+限定x轴范围
+ylim()
+限定y轴范围
+xlabel()
+给定x轴标签
+ylabel()
+给定y轴标签
+xticks()
+更换x轴角标
+yticks()
+更换y轴角标
+legend(handles=[l1],labels=['aaa'],loc={'upper right','best'})
+按照labels和handles，设置图例数目和标签，根据loc，设置图例位置
+annotate(r'$2x+1=%s$' % y0,xy=(x0,y0),xycoords='data',
+         xytext=(+30,-30),textcoords='offset points',
+         fontsize=16,arrowprops=dict(arrowstyle='->',connectionstyle='arc3,rad=.2'))
+基于xycoords的点xy，生成偏移量为xytext的箭头形式为arrowstyle，箭头角度为connectionstyle的箭头
+text(x,y,r'$ $',fontdict={'size':,'color':},ha='center',va='top')
+在点xy处，生成字号为size，颜色为color的标注,ha(horizontal alignment),va(vertical alignment)
+
+
+坐标轴常用属性和函数：
+gca()
+获得当前轴(get current axis)
+gca.spines[{'right','left','bottom','top'}].set_color('none')
+设置边框为空
+gca.xaixs.set_ticks_position({'right','left','bottom','top'})
+设置x轴
+gca.yaixs.set_ticks_position({'right','left','bottom','top'})
+设置y轴
+gca.spines[{'right','left','bottom','top'}].set_position(({outward,axes,data},))
+改变坐标轴位置
+gca.get_xticklabels()
+获取x轴所有标签
+gca.get_yticklabels()
+获取y轴所有标签
+ticklabels.set_fontsize()
+设置轴标签字号大小
+ticklabels.set_bbox(dict(facecolor=,edgecolor=,alpha=)
+设置轴标签的背景颜色，边框颜色和透明度
