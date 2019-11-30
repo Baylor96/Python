@@ -8,8 +8,16 @@ copy()
 深拷贝
 any()
 数据是否包含有ture的值
-linspace()
-将数据分段
+linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
+start:返回样本数据开始点
+stop:返回样本数据结束点
+num:生成的样本数据量，默认为50
+endpoint：True则包含stop；False则不包含stop
+retstep：如果为True则结果会给出数据间隔
+dtype：输出数组类型
+axis：0(默认)或-1
+np.set_printoptions(precision=x)
+设置保留小数点后x个数
 sum()
 求和函数
 product()
