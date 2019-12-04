@@ -1,0 +1,28 @@
+方法一：设置边界的经纬度
+参数	                          解释
+llcrnrlon	longitude of lower left hand corner of the desired map domain (degrees).
+                           地图左边经度
+llcrnrlat	latitude of lower left hand corner of the desired map domain (degrees).
+                           地图下方纬度
+urcrnrlon	longitude of upper right hand corner of the desired map domain (degrees).
+                           地图右边经度
+urcrnrlat	latitude of upper right hand corner of the desired map domain (degrees).
+                           地图上方纬度
+方法二：设置边界的坐标
+llcrnrx	x value of lower left hand corner of the selected map domain in map projection coordinates.
+                           地图左下角的x值
+llcrnry	y value of lower left hand corner of the selected map domain in map projection coordinates.
+                           地图左下角的y值
+urcrnrx	x value of upper right hand corner of the selected map domain in map projection coordinates.
+                           地图右上角的x值
+urcrnry	y value of upper right hand corner of the selected map domain in map projection coordinates.
+                           地图右上角的y值
+方法三：设置中心点和高与宽
+width	width of desired map domain in projection coordinates (meters).
+                           宽
+height	height of desired map domain in projection coordinates (meters).
+                           高
+lon_0	center of desired map domain (in degrees).
+                           中心点的经度
+lat_0	center of desired map domain (in degrees).
+                           中心点的纬度

@@ -1,0 +1,35 @@
+选项	       描述	                         解释
+cyl	       Cylindrical Equidistant	     默认，圆柱投影
+merc	   Mercator	                     墨卡托投影，是正轴等角圆柱投影
+tmerc	   Transverse Mercator	         横轴墨卡托投影
+omerc	   Oblique Mercator	             斜轴墨卡托投影
+mill	   Miller Cylindrical	         米勒圆柱投影
+gall	   Gall Stereographic	         高尔立体投影
+cea	       Cylindrical Equal-Area	     圆柱等面积投影
+lcc	       Lambert Conformal	         兰勃特等角投影
+laea	   Lambert Azimuthal Equal Area	 兰勃特等积投影
+nplaea	   North-Polar Lambert	         北极兰勃特投影
+splaea	   South-Polar Lambert	         南极兰勃特投影
+eqdc	   Equidistant Conic	         等距圆锥投影
+aeqd	   Azimuthal Equidistant	     等距方位投影
+npaeqd	   North-Polar Azimuthal	     北极方位投影
+spaeqd	   South-Polar Azimuthal	     南极方位投影
+aea	       Albers Equal	                 阿尔伯斯等积投影
+stere	   Stereographic	             立体投影
+npstere	   North-Polar Stereographic	 北极立体投影
+spstere	   South-Polar Stereographic	 南极立体投影
+cass	   Cassini-Soldner	             卡西尼-斯洛德投影
+poly	   Polyconic	                 多圆锥投影
+ortho	   Orthographic	                 正射投影
+geos	   Geostationary	             对地静止投影
+nsper	   Near-Sided Perspective	     近端透视投影
+sinu	   Sinusoidal	                 正弦投影
+moll	   Mollweide	                 摩尔威德投影
+hammer	   Hammer	                     哈默投影
+robin	   Robinson	                     罗宾森投影
+kav7	   Kavrayskiy VII
+eck4	   Eckert IV
+vandg	   van der
+mbtfpq	   McBryde-Thomas Flat-Polar
+gnom	   Gnomonic
+rotpole	   Rotated Pole
