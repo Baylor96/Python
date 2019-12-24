@@ -19,17 +19,17 @@ model.add(tf.keras.layers.Dense(10, activation='softmax'))
 
 # model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.01), loss='categorical_crossentropy', metrics=['acc'])
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
-histroy = model.fit(train_image, train_label_onehot, epochs=10, validation_data=(test_image, test_label_onehot))
+history = model.fit(train_image, train_label_onehot, epochs=10, validation_data=(test_image, test_label_onehot))
 
-print(histroy.history.keys())
+print(history.history.keys())
 
 figure1 = plt.figure()
-plt.plot(histroy.epoch, histroy.history.get('loss'), label='loss')
-plt.plot(histroy.epoch, histroy.history.get('val_loss'), label='val_loss')
+plt.plot(history.epoch, history.history.get('loss'), label='loss')
+plt.plot(history.epoch, history.history.get('val_loss'), label='val_loss')
 plt.legend()
 figure2 = plt.figure()
-plt.plot(histroy.epoch, histroy.history.get('acc'), label='acc')
-plt.plot(histroy.epoch, histroy.history.get('val_acc'), label='val_acc')
+plt.plot(history.epoch, history.history.get('acc'), label='acc')
+plt.plot(history.epoch, history.history.get('val_acc'), label='val_acc')
 plt.legend()
 plt.show()
 
