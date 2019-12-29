@@ -21,6 +21,6 @@ model.compile(optimizer='adam', loss='binary_crossentropy',metrics=['acc'])
 history = model.fit(x, y, epochs=200)
 print(history.history.keys())
 
-plt.plot(history.epoch, history.history.get('loss'))
-# plt.plot(history.epoch, history.history.get('acc'))
+# plt.plot(history.epoch, history.history.get('loss'))
+plt.plot(history.epoch, history.history.get('acc'))
 plt.show()
