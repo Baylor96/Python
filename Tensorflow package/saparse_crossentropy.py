@@ -12,6 +12,8 @@ print(test_image.shape, test_label.shape)
 train_image = train_image/255
 test_image = test_image/255
 
+print(train_image.shape)
+
 model = tf.keras.Sequential()
 model.add(tf.keras.layers.Flatten(input_shape=(28,28)))
 model.add(tf.keras.layers.Dense(128, activation='relu'))
