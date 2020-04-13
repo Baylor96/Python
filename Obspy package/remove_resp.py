@@ -1,13 +1,3 @@
-# import obspy
-# import matplotlib.pyplot as plt
-#
-# threechannels = obspy.read('./sacdata/CA.1563A.01.HHE.sac')
-# threechannels += obspy.read('./sacdata/CA.1563A.01.HHN.sac')
-# threechannels += obspy.read('./sacdata/CA.1563A.01.HHZ.sac')
-#
-# tc_raw = threechannels.copy()
-# tc_raw.plot()
-
 import matplotlib.pyplot as plt
 
 import obspy
