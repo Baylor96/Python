@@ -61,6 +61,8 @@ getmtime(file)
 以下为函数返回 True 或 False
 exists(path)
 判断指定路径（目录或文件）是否存在
+expanduser(path)
+展开'~'路径
 isabs(path)
 判断指定路径是否为绝对路径
 isdir(path)
