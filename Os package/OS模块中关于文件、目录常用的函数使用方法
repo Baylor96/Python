@@ -75,3 +75,5 @@ ismount(path)
 判断指定路径是否存在且是一个挂载点
 samefile(path1, paht2)
 判断path1和path2两个路径是否指向同一个文件
+relpath(path, start=curdir)
+从start开始计算相对路径
