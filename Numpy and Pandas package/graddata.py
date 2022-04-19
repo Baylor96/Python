@@ -1,6 +1,6 @@
 import numpy as np
 
-point_grid =np.array([[0.0,0.0,0.0],[0.4,0.4,0.4],[0.8,0.8,0.8],[1.0,1.0,1.0]])
+point_grid = np.array([[0.0,0.0,0.0],[0.4,0.4,0.4],[0.8,0.8,0.8],[1.0,1.0,1.0]])
 print(point_grid)
 
 def func(x, y, z):
