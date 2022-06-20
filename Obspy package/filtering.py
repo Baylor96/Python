@@ -2,18 +2,18 @@ import obspy
 import matplotlib.pyplot as plt
 import numpy as np
 
-sac = obspy.read('./sacdata/CA.1563A.01.HHE.sac')
+sac = obspy.read('./data/3t.e.sac')
 tr = sac[0]
-threechannels = obspy.read('./sacdata/CA.1563A.01.HHE.sac')
-threechannels += obspy.read('./sacdata/CA.1563A.01.HHN.sac')
-threechannels += obspy.read('./sacdata/CA.1563A.01.HHZ.sac')
+threechannels = obspy.read('./data/3t.e.sac')
+threechannels += obspy.read('./data/3t.n.sac')
+threechannels += obspy.read('./data/3t.z.sac')
 print(sac)
 
 # # waveform plot
-# dt = tr.stats.starttime
-# sac.plot()
-# sac.plot(color='red', number_of_ticks=7, tick_rotation=5, tick_format='%I:%M %p', starttime=dt, endtime=dt + 120)
-# threechannels.plot(size = (800,600))
+dt = tr.stats.starttime
+sac.plot()
+sac.plot(color='red', number_of_ticks=7, tick_rotation=5, tick_format='%I:%M %p', starttime=dt, endtime=dt + 120)
+threechannels.plot(size = (800,600))
 
 # # custom plotting
 # fig = plt.figure()
