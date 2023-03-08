@@ -4,6 +4,7 @@ import Functions_5 as Func_5
 from Gradent_Descent import gradient_descent, newton, msgd, adam
 from Backtracking_line_search import backtracking_line_search
 
+
 if __name__ == "__main__":
     # Find the (1e-4)-suboptimal solution
     eps = 1e-4
